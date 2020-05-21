@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!DOCTYPE nmaprun>
+    <?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+    <!-- Nmap 7.70 scan initiated Thu May 14 09:05:43 2020 as: nmap -sn -oX scan.xml 192.168.1.0/24 -->
+    <nmaprun scanner="nmap" args="nmap -sn -oX scan.xml 192.168.1.0/24" start="1589461543" startstr="Thu May 14 09:05:43 2020" version="7.70" xmloutputversion="1.04">
+        <verbose level="0"/>
+        <debugging level="0"/>
+        <host>
+            <status state="up" reason="arp-response" reason_ttl="0"/>
+            <address addr="192.168.1.93" addrtype="ipv4"/>
+            <address addr="64:9A:BE:78:EC:22" addrtype="mac" vendor="Apple"/>
+            <hostnames>
+                <hostname name="DaniellesiPhone.attlocal.net" type="PTR"/>
+            </hostnames>
+            <times srtt="219000" rttvar="219000" to="1095000"/>
+        </host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.176" addrtype="ipv4"/>
+<address addr="60:38:E0:EA:D6:81" addrtype="mac" vendor="Belkin International"/>
+<hostnames>
+<hostname name="unknown6038e0ead681.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="348000" rttvar="348000" to="1740000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.177" addrtype="ipv4"/>
+<address addr="60:38:E0:EA:D6:81" addrtype="mac" vendor="Belkin International"/>
+<hostnames>
+<hostname name="wemo.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="171000" rttvar="171000" to="855000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.179" addrtype="ipv4"/>
+<address addr="68:54:FD:B0:D7:5D" addrtype="mac" vendor="Amazon Technologies"/>
+<hostnames>
+<hostname name="amazon-ec5706983.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="193000" rttvar="193000" to="965000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.182" addrtype="ipv4"/>
+<address addr="00:4D:32:01:F6:FD" addrtype="mac" vendor="Andon Health"/>
+<hostnames>
+<hostname name="unknown004d3201f6fd.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="14000" rttvar="14000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.192" addrtype="ipv4"/>
+<address addr="18:16:C9:25:93:C3" addrtype="mac" vendor="Samsung Electronics"/>
+<hostnames>
+<hostname name="DIRECTV-HR54-C92593C2.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="18000" rttvar="18000" to="100000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.199" addrtype="ipv4"/>
+<address addr="34:CE:00:88:1A:A3" addrtype="mac" vendor="Xiaomi Electronics,co."/>
+<hostnames>
+<hostname name="yeelink-light-mono1_miio56752130.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="114000" rttvar="114000" to="570000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.207" addrtype="ipv4"/>
+<address addr="20:DF:B9:53:C5:20" addrtype="mac"/>
+<hostnames>
+<hostname name="Google-Home-Mini.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="96000" rttvar="96000" to="480000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.213" addrtype="ipv4"/>
+<address addr="D0:73:D5:3C:F2:17" addrtype="mac" vendor="Lifi Labs Management"/>
+<hostnames>
+<hostname name="Front-Porch.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="89000" rttvar="89000" to="445000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.214" addrtype="ipv4"/>
+<address addr="D0:73:D5:3E:3F:E0" addrtype="mac" vendor="Lifi Labs Management"/>
+<hostnames>
+<hostname name="Living-Room.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="87000" rttvar="87000" to="435000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.215" addrtype="ipv4"/>
+<address addr="D0:73:D5:3D:32:B9" addrtype="mac" vendor="Lifi Labs Management"/>
+<hostnames>
+<hostname name="Bedroom.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="85000" rttvar="85000" to="425000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.228" addrtype="ipv4"/>
+<address addr="64:52:99:AA:53:1A" addrtype="mac" vendor="The Chamberlain Group"/>
+<hostnames>
+<hostname name="MyQ-892.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="222000" rttvar="222000" to="1110000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.236" addrtype="ipv4"/>
+<address addr="E0:9D:31:A0:A6:F4" addrtype="mac" vendor="Intel Corporate"/>
+<hostnames>
+<hostname name="SA060B4.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="243000" rttvar="243000" to="1215000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.238" addrtype="ipv4"/>
+<address addr="52:D4:F7:17:EE:EE" addrtype="mac"/>
+<hostnames>
+<hostname name="RE220.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="216000" rttvar="216000" to="1080000"/>
+</host>
+<host><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.1.254" addrtype="ipv4"/>
+<address addr="B8:16:19:9A:E3:C0" addrtype="mac" vendor="Arris Group"/>
+<hostnames>
+<hostname name="dsldevice.attlocal.net" type="PTR"/>
+</hostnames>
+<times srtt="4000" rttvar="5000" to="100000"/>
+</host>
+<host><status state="up" reason="localhost-response" reason_ttl="0"/>
+<address addr="192.168.1.71" addrtype="ipv4"/>
+<hostnames>
+<hostname name="host.docker.internal" type="PTR"/>
+</hostnames>
+</host>
+<runstats><finished time="1589461567" timestr="Thu May 14 09:06:07 2020" elapsed="24.96" summary="Nmap done at Thu May 14 09:06:07 2020; 256 IP addresses (16 hosts up) scanned in 24.96 seconds" exit="success"/><hosts up="16" down="240" total="256"/>
+</runstats>
+</nmaprun>
